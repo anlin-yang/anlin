@@ -99,7 +99,8 @@ header {
 
 .work {
   border-bottom: 1px solid #eee;
-  margin-bottom: 40px; }
+  padding-bottom: 40px;
+  margin-bottom: 90px; }
   .work .work-title {
     color: #212121;
     font-weight: normal;
@@ -148,13 +149,10 @@ header {
   height: 9em;
   background-color: green; }
 
-.contact {
-  height: 9em;
-  background-color: pink; }
-
 .photos {
   background: #fff;
   border-bottom: 1px solid #eee;
+  padding-bottom: 40px;
   margin-bottom: 40px; }
   .photos .photos-title {
     color: #212121;
@@ -187,6 +185,36 @@ header {
     font-size: 18px;
     text-align: center;
     opacity: 0.8; }
+
+.contact {
+  background-color: #fff; }
+  .contact .contact-title {
+    color: #212121;
+    font-weight: normal;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center; }
+  .contact .s-line {
+    background: #333;
+    height: 3px;
+    width: 80px;
+    margin: 10px auto 10px auto; }
+  .contact .contact-caption {
+    line-height: 1.5;
+    font-style: italic;
+    font-weight: normal;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 25px;
+    margin-bottom: 30px; }
+  .contact .contact-list {
+    float: left;
+    margin: 10px 40px; }
+  .contact .contact-img-caption {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 5px;
+    font-weight: normal; }
 
 footer {
   height: 5em;

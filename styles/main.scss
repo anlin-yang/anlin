@@ -150,16 +150,14 @@ header {
     font-family: 'open sans', helvetica, "Microsoft YaHei","微软雅黑",STXihei,"华文细黑",sans-serif !important;
   }
   border-bottom: 1px solid #eee;
-  margin-bottom: 40px;
+  padding-bottom: 40px;
+  margin-bottom: 90px;
 }
 .exp {
   height: 9em;
   background-color: green;
 }
-.contact {
-  height: 9em;
-  background-color: pink;
-}
+
 
 .photos {
   //height: 500px;
@@ -186,9 +184,6 @@ header {
     margin-top: 25px;
     margin-bottom: 30px;
   }
-  // .photos-list-wrapper {
-  //   margin-bottom: 40px;
-  // }
   .photo-list {
     float: left;
     margin: 0 10px 10px 10px;
@@ -205,9 +200,46 @@ header {
     opacity: 0.8;
   }
   border-bottom: 1px solid #eee;
+  padding-bottom: 40px;
   margin-bottom: 40px;
 }
 
+.contact {
+  //height: 9em;
+  background-color: #fff;
+  .contact-title {
+    color: $primary-text-color;
+    font-weight: normal;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .s-line {
+    background: #333;
+    height: 3px;
+    width: 80px;
+    margin: 10px auto 10px auto;
+  }
+  .contact-caption {
+    line-height: 1.5;
+    font-style: italic;
+    font-weight: normal;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+  }
+  .contact-list {
+    float: left;
+    margin: 10px 40px;
+  }
+  .contact-img-caption {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 5px;
+    font-weight: normal;
+  }
+}
 
 footer {
   height: 5em;
