@@ -7,6 +7,7 @@ header {
   width: 100%;
   background-color: #00b0b8;
   position: fixed;
+  z-index: 100;
 
   .nav {
     margin: 0;
@@ -29,6 +30,10 @@ header {
     border-radius: 5px;
   }
 
+  .nav li a:hover {
+    border: 1px solid rgba(255,255,255,.2);
+  }
+
   .nav li.current a {
     background: rgba(255,255,255,.2);
     border: 1px solid transparent;
@@ -44,7 +49,8 @@ header {
     position: fixed;
     left: 50%;
     margin-left: -30px;
-    margin-top: 10px;
+    top: 10px;
+    // margin-top: 10px;
     /* 字体居中 */
     color: #fff;
     font-size: 35px;
@@ -53,6 +59,11 @@ header {
     /* 颜色样式 */
     background: #00c4cc;
     box-shadow: 0 5px 5px rgba(0,0,0,.1);
+  }
+  .logo .logo-img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
   }
 }
 
@@ -65,11 +76,11 @@ header {
   background: url("../images/anlin-banner.jpg");
   height: 22em;
   background-size: cover;
-  //margin-top: -50px;
   background-position: 50% 50%;
 }
+
 .tagline {
-  margin-top: 350px;
+  margin-top: 250px;
   margin-bottom: 10px;
   color: $primary-color-text;
   text-align: center;
@@ -77,21 +88,124 @@ header {
   font-weight: normal;
 }
 
+.wrapper {
+  width: 1000px;
+  padding: 70px 0px;
+  margin: 0 auto;
+}
+
 .work {
-  height: 13em;
-  background-color: red;
+  //height: 300px;
+  //background-color: #ffc;
+  .work-title {
+    color: $primary-text-color;
+    font-weight: normal;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .s-line {
+    background: #333;
+    height: 3px;
+    width: 80px;
+    margin: 10px auto 10px auto;
+  }
+  .work-caption {
+    line-height: 1.5;
+    font-style: italic;
+    font-weight: normal;
+    text-align: center;
+    font-size: 15px;
+  }
+  .work-list-wrapper {
+    padding: 20px 0;
+    //background: #ebeced;
+  }
+  .post {
+    float: left;
+    background: #fff;
+    width: 290px;
+    height: 220px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 1px rgba(0,0,0,.08);
+    position: relative;
+  }
+  .work-code-image {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  .work-code-title h2 {
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    margin: 10px auto 5px auto;
+  }
+  .work-code-info {
+    text-align: center;
+    bottom: 10px;
+    font-family: 'open sans', helvetica, "Microsoft YaHei","微软雅黑",STXihei,"华文细黑",sans-serif !important;
+  }
+  border-bottom: 1px solid #eee;
+  margin-bottom: 40px;
 }
 .exp {
   height: 9em;
   background-color: green;
 }
-.photos {
-  height: 9em;
-  background-color: blue;
-}
 .contact {
   height: 9em;
   background-color: pink;
+}
+
+.photos {
+  //height: 500px;
+  background: #fff;
+  .photos-title {
+    color: $primary-text-color;
+    font-weight: normal;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .s-line {
+    background: #333;
+    height: 3px;
+    width: 80px;
+    margin: 10px auto 10px auto;
+  }
+  .photos-caption {
+    line-height: 1.5;
+    font-style: italic;
+    font-weight: normal;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+  }
+  // .photos-list-wrapper {
+  //   margin-bottom: 40px;
+  // }
+  .photo-list {
+    float: left;
+    margin: 0 10px 10px 10px;
+  }
+  .photo-list .photo-img {
+    display: block;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  .photo-list .photo-list-caption {
+    font-size: 18px;
+    text-align: center;
+    opacity: 0.8;
+  }
+  border-bottom: 1px solid #eee;
+  margin-bottom: 40px;
 }
 
 
