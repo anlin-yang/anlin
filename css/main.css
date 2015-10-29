@@ -146,8 +146,45 @@ header {
     font-family: 'open sans', helvetica, "Microsoft YaHei","微软雅黑",STXihei,"华文细黑",sans-serif !important; }
 
 .exp {
-  height: 9em;
-  background-color: green; }
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 40px;
+  margin-bottom: 40px; }
+  .exp .exp-title {
+    color: #212121;
+    font-weight: normal;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center; }
+  .exp .s-line {
+    background: #333;
+    height: 3px;
+    width: 80px;
+    margin: 10px auto 10px auto; }
+  .exp .exp-caption {
+    line-height: 1.5;
+    font-style: italic;
+    font-weight: normal;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 25px;
+    margin-bottom: 30px; }
+  .exp .exp-list-img {
+    float: left;
+    border-radius: 10px;
+    margin: 10px 40px 10px 180px; }
+  .exp .exp-list-title {
+    font-weight: normal;
+    margin-bottom: 5px; }
+  .exp .exp-list-date {
+    font-size: 18px;
+    position: relative;
+    left: 20px;
+    opacity: 0.8;
+    margin-bottom: 10px; }
+  .exp .exp-list-content {
+    font-size: 16px;
+    font-weight: normal; }
 
 .photos {
   background: #fff;
